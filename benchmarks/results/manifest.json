@@ -1,0 +1,8 @@
+{
+  "source": "Retained real synthetic six-turn pilot; no new inference performed for portfolio preparation",
+  "results_sha256": "dde88e706655d9ee2ce88a5fb5805089f69981a11d723557cf9f72f4ced3b158",
+  "environment_is_sanitized_derivative": true,
+  "replicates_per_cell": 1,
+  "upstream_commit": "b200f5bc60e31588ba2cb60e288029c4a54ba5fa",
+  "privacy": "No production endpoints, account IDs, credentials or user message logs are included."
+}

@@ -1,0 +1,12 @@
+{
+  "tagOwners": {
+    "tag:a3-cloud": ["autogroup:admin"],
+    "tag:a3-mac": ["autogroup:admin"]
+  },
+  "grants": [
+    {"src": ["tag:a3-cloud"], "dst": ["tag:a3-mac"], "ip": ["tcp:11434"]}
+  ],
+  "tests": [
+    {"src": "tag:a3-cloud", "accept": ["tag:a3-mac:11434"], "deny": ["tag:a3-mac:22"]}
+  ]
+}

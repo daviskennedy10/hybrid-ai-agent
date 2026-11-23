@@ -1,0 +1,17 @@
+{
+  "resource_type": "cloud_run_instance",
+  "instance": "hybrid-ai-agent",
+  "project": "REPLACE_PROJECT",
+  "region": "us-west2",
+  "image": "us-west2-docker.pkg.dev/REPLACE_PROJECT/agent/hermes@sha256:REPLACE_DIGEST",
+  "cpu": 1,
+  "memory": "1Gi",
+  "port": 8080,
+  "restart_policy": "always",
+  "service_account": "a3-runtime@REPLACE_PROJECT.iam.gserviceaccount.com",
+  "bucket": "REPLACE_PRIVATE_BUCKET",
+  "bucket_mount": "/workspace-archive",
+  "bucket_read_only": true,
+  "invoker_iam_check": true,
+  "preparation_only": true
+}

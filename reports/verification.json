@@ -1,0 +1,95 @@
+{
+  "prepared_at_utc": "2026-11-22T08:18:37.404470+00:00",
+  "scope": "Separate sanitized portfolio candidate; no production changes",
+  "core": {
+    "python": "3.14.4",
+    "resolved_packages": 3,
+    "installed_dependencies": 2,
+    "uv_frozen_offline_install_passed": true,
+    "lock_consistency_check_passed": true,
+    "dependency_compatibility_passed": true,
+    "tests_run": 260,
+    "passed": 243,
+    "skipped": 17,
+    "failure_count": 0
+  },
+  "optional_hermes": {
+    "pin": "b200f5bc60e31588ba2cb60e288029c4a54ba5fa",
+    "fresh_pinned_archive_and_offline_install": true,
+    "upstream_source_not_in_git_index": true,
+    "installed_distributions": 67,
+    "tests_run": 260,
+    "passed": 254,
+    "skipped_live_model_tests": 6,
+    "failure_count": 0,
+    "raw_uv_pip_check_passed": false,
+    "compatibility_warning": "browser-harness 0.1.13 declares pillow==12.3.0; pinned Hermes intentionally overrides to Pillow 13.0.0. This was not downgraded or modified. Core code does not use the browser harness."
+  },
+  "fresh_local_clone": {
+    "test_type": "Fresh local Git clone of a temporary sanitized single-commit seed, not a GitHub clone",
+    "candidate_or_original_committed": false,
+    "temporary_verification_seed_committed": true,
+    "dependencies_from_existing_cache": true,
+    "production_credentials_copied": false,
+    "new_model_inference": false,
+    "results": {
+      "install": {
+        "exit_code": 0
+      },
+      "tests": {
+        "exit_code": 0,
+        "tests_run": 260,
+        "skipped": 17
+      },
+      "demo": {
+        "exit_code": 0
+      },
+      "benchmark_replay": {
+        "exit_code": 0
+      },
+      "publication_scanner": {
+        "exit_code": 0
+      },
+      "dependency_compatibility": {
+        "exit_code": 0
+      }
+    }
+  },
+  "benchmark_replay": {
+    "six_original_rows_verified": true,
+    "original_strict_scores_preserved": true,
+    "new_inference_performed": false
+  },
+  "security": {
+    "scope": "All non-runtime public candidate files; original reachable/reflog Git blobs; known private values decoded locally without output",
+    "public_files_scanned": 125,
+    "public_known_or_encoded_private_value_findings": 0,
+    "public_matching_paths": [],
+    "original_history_blobs_scanned": 171,
+    "original_history_blobs_matching_private_value_or_identifier": 0,
+    "original_history_blobs_matching_patterns": 1,
+    "original_history_copied": false,
+    "secret_values_or_original_matching_snippets_exported": false,
+    "semantic_privacy_certified": false
+  },
+  "advisory_scan": {
+    "performed": false,
+    "reason": "pip-audit unavailable offline; public package-registry DNS failed",
+    "gitleaks_or_trufflehog_executed": false
+  },
+  "original_source_files_hash_checked": 93,
+  "original_source_hash_changes": [],
+  "candidate_or_original_git_commit_created": false,
+  "github_repository_created": false,
+  "pushed": false,
+  "required_owner_reviews": [
+    "Written instructor clearance for full-source publication",
+    "Confirm proposed MIT license and rights",
+    "Personal semantic/privacy/code review",
+    "Select final repository URL and private security-reporting contact",
+    "Online advisory/independent scanner review before release"
+  ],
+  "production_cloud_or_host_services_contacted_or_changed": false,
+  "historical_preparation_snapshot": true,
+  "current_release_status_report": "initial-release-review.json"
+}

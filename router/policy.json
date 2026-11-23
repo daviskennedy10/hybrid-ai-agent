@@ -1,0 +1,20 @@
+{
+  "cloud_model": "gpt-5.6-sol",
+  "cloud_provider": "openai-codex",
+  "local_model": "gemma4:e2b",
+  "local_alias": "gemma-local",
+  "local_url": "http://127.0.0.1:11434/v1",
+  "long_context_bytes": 24000,
+  "local_input_bytes": 48000,
+  "simple_max_bytes": 2000,
+  "max_output_tokens": 2048,
+  "retries": 1,
+  "retry_delay_seconds": 0.25,
+  "health_timeout_seconds": 2,
+  "attempt_timeout_seconds": 120,
+  "allow_complex_rate_limit_fallback": false,
+  "allow_unknown_rate_limit_fallback": true,
+  "private_patterns": ["\\[private\\]", "\\bconfidential\\b", "\\bdo not (?:send|share).*cloud\\b", "\\bsynthetic private\\b"],
+  "complex_patterns": ["\\b(?:prove|proof|derive|reasoning|debug|architecture|algorithm|trade.?offs?|analy[sz]e)\\b"],
+  "simple_patterns": ["^(?:hi|hello|hey)[!. ]*$", "\\b(?:translate|summari[sz]e|rephrase|uppercase|lowercase|classify|extract|spell|capital of|what is \\d)\\b"]
+}

@@ -1,0 +1,11 @@
+{
+  "preparation_only": true,
+  "runtime_service_account": "a3-runtime@REPLACE_PROJECT.iam.gserviceaccount.com",
+  "bindings_to_create_later": [
+    {"resource": "dedicated-assignment-bucket", "role": "roles/storage.objectUser", "scope": "bucket only; add object-generation conditions in the storage adapter"},
+    {"resource": "each required assignment secret individually", "role": "roles/secretmanager.secretAccessor", "scope": "specific secret only"}
+  ],
+  "prohibited_runtime_roles": ["roles/owner", "roles/editor", "roles/secretmanager.admin"],
+  "google_service_account_json_key_required": false,
+  "secrets_to_create_later": ["a3-telegram", "a3-skills", "a3-schedule", "a3-persistence", "a3-hermes-config", "a3-hermes-auth", "a3-tailscale-auth", "a3-gateway-key"]
+}

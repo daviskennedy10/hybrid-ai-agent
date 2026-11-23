@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "enabled": false,
+  "recipient_user_id": 101,
+  "timezone": "America/Los_Angeles",
+  "morning_time": "08:00",
+  "evening_time": "18:00",
+  "tick_seconds": 5,
+  "alert_poll_seconds": 120,
+  "event_lead_minutes": 30,
+  "conflict_horizon_hours": 48,
+  "catchup_minutes": 120,
+  "max_notifications_per_poll": 5,
+  "max_delivery_attempts": 3,
+  "retry_seconds": 30,
+  "test_jobs": [],
+  "verification": {}
+}

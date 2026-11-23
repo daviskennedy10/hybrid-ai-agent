@@ -1,0 +1,10 @@
+{
+  "fixtures": [
+    {
+      "file": "tests/test_telegram.py",
+      "kind": "telegram_token",
+      "sha256": "e4f2ddbd64cf2956ef34494787b03e376f49d9c7687a06d54920f4dd7625735b",
+      "reason": "Inspected test-only literal explicitly ending SYNTHETIC; Telegram transport is mocked and no live token is used."
+    }
+  ]
+}

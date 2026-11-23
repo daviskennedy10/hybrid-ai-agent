@@ -1,0 +1,28 @@
+{
+  "scanner": "stdlib bounded pattern/path + staged/history scan",
+  "candidate_files": 130,
+  "unreviewed_pattern_findings": [],
+  "reviewed_synthetic_fixture_findings": [
+    {
+      "file": "tests/test_telegram.py",
+      "kind": "telegram_token"
+    }
+  ],
+  "git": {
+    "present": true,
+    "staged_blobs": 130,
+    "history_blobs": 0,
+    "secret_pattern_findings": 0
+  },
+  "semantic_privacy_certified": false,
+  "external_gitleaks_or_trufflehog_executed": false,
+  "historical_known_private_values_scan": {
+    "unreviewed_matches": 0,
+    "encoded_forms_checked": true,
+    "private_values_not_exported": true
+  },
+  "limits": [
+    "Independent secret scanner installation and dependency advisory scan were blocked by DNS; no pass or zero-vulnerability claim.",
+    "Pattern/path scans do not certify semantic privacy."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "mode": "gcs",
+  "bucket": "REPLACE_PRIVATE_ASSIGNMENT_BUCKET",
+  "namespace": "csci599-a3",
+  "lease_seconds": 300,
+  "bootstrap": false
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "allowed_user_ids": [101],
+  "assignment_only_confirmed": false,
+  "calendar_name": "CSCI599 Stage4 Synthetic",
+  "calendar_ics_url": "",
+  "email_username": "",
+  "email_app_password": "",
+  "email_allowed_recipients": [],
+  "profile": {
+    "name": "Fictional Casey Test",
+    "location": "Los Angeles",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "timezone": "America/Los_Angeles"
+  }
+}

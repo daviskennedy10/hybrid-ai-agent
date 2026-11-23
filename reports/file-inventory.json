@@ -1,0 +1,521 @@
+{
+  "scope": "Current public source inventory; excludes itself, Git metadata, ignored local diagnostics, optional dependency checkout and virtualenvs",
+  "files": {
+    ".dockerignore": {
+      "bytes": 751,
+      "sha256": "6a1a6b50a6d9ac14392cf7ecbb8c6a82879401206ae63c6a20711c56390344b9"
+    },
+    ".env.example": {
+      "bytes": 266,
+      "sha256": "30342a52300d1f14206f2021b638dcbc30c4b3f7d694dbc5aa5f9e84003a7247"
+    },
+    ".github/workflows/tests.yml": {
+      "bytes": 484,
+      "sha256": "6ff704de7ade32ab78e5736450fff043180347528bf1cddb4de7a7cc1a5ca684"
+    },
+    ".gitignore": {
+      "bytes": 416,
+      "sha256": "3cdc7b461ce99d6ea594cdc10ecf65398012048db7b27f1bafaee2374535503e"
+    },
+    ".python-version": {
+      "bytes": 7,
+      "sha256": "bb90877c5ee8c4703cfd03421e92ef2a17a10b67ecc822524baeea4c8da3dc9f"
+    },
+    "LICENSE": {
+      "bytes": 1373,
+      "sha256": "5117793df0b668e839815221cb29923b7b7e7ae9630c7bf331ee48ca8cf72003"
+    },
+    "README.md": {
+      "bytes": 11478,
+      "sha256": "db6550988e55ffb3819384bbd497657b64b0bc3b38ddf5529934dc75e7a9ebf9"
+    },
+    "SECURITY.md": {
+      "bytes": 1809,
+      "sha256": "5139cda5b935ac08f96b64cc22b0f2b8ccd387263eb8a5d8652f2cf7630ad385"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 3046,
+      "sha256": "84858d324e53e9697621713f5b918e2d56fbe3ead5a2727e3fe46400f01c4253"
+    },
+    "agent_memory/__init__.py": {
+      "bytes": 79,
+      "sha256": "654dc863e4b428a7640160f9544513cb1284a090379f44b0b0ad177ac2c3f54b"
+    },
+    "agent_memory/store.py": {
+      "bytes": 8272,
+      "sha256": "15eaa545e599d7c91556c9548e9146250f00ed86d742b49d03b6c19a06e0e2eb"
+    },
+    "assignment_skills/__init__.py": {
+      "bytes": 90,
+      "sha256": "f1bc1e27fdd32b815ded5da117f8e060421ff68148cfc8fcdec28cee2bd189a0"
+    },
+    "assignment_skills/__main__.py": {
+      "bytes": 3498,
+      "sha256": "f0c38b313ae2f277a3ea69c2503f3d969923dc11908767346c04a46075631ebe"
+    },
+    "assignment_skills/calendar.py": {
+      "bytes": 11499,
+      "sha256": "cece38572a53ce54f8526e3d983ceb2eb6d88e28c35b0c4e7e0da9c8a1005725"
+    },
+    "assignment_skills/common.py": {
+      "bytes": 3440,
+      "sha256": "5a7a30e55080ec42db063f4f85112bd92ef6d6afe5929e440a6de83154c0616a"
+    },
+    "assignment_skills/config.example.json": {
+      "bytes": 423,
+      "sha256": "2d708ffb5d872d620c4cfd0a8e4395035c023f206ab1107a957084aa64c4bb65"
+    },
+    "assignment_skills/config.py": {
+      "bytes": 3825,
+      "sha256": "c9d9ee589e311c88198f91cc1504f44e350db963ede241d9be8a51faed916c37"
+    },
+    "assignment_skills/dispatch.py": {
+      "bytes": 10029,
+      "sha256": "658078a667adbeb3af09c15740986cb9154c989c3bd4429a5ad58b85324b160b"
+    },
+    "assignment_skills/email.py": {
+      "bytes": 6024,
+      "sha256": "7f4f553099d2c167dd5b8ae7d940bf21c2974212c57594bd0f640e59b6570184"
+    },
+    "assignment_skills/presentation.py": {
+      "bytes": 3094,
+      "sha256": "7f2588ded2fb47a9fa572e66308785eeab6aba98c45bcac6592ee61d824e6182"
+    },
+    "assignment_skills/requirements.txt": {
+      "bytes": 117,
+      "sha256": "769ef4b17d513e12c7da68481a32872676dd4d5b29bddb382db927a686910f82"
+    },
+    "assignment_skills/search.py": {
+      "bytes": 4303,
+      "sha256": "2385b344d8de2b2bacc296b250399af1a7ff7d9af88f3dddde358a91c87aaa67"
+    },
+    "assignment_skills/verify_logs.py": {
+      "bytes": 2542,
+      "sha256": "9c18d749a08587b7562073cebf807f2fa9946bd3ac14c5da7829c9c26a8434c9"
+    },
+    "assignment_skills/weather.py": {
+      "bytes": 8625,
+      "sha256": "95c98947848e3a3b6f98a4bbf87effbe67f13ce2103166345e61dd168119987c"
+    },
+    "assignment_skills/weather_diagnose.py": {
+      "bytes": 4208,
+      "sha256": "dd7b15bd574d621803ea60afd500afa403a6c172205761a360703892741e63a6"
+    },
+    "benchmarks/__init__.py": {
+      "bytes": 73,
+      "sha256": "d64918d007267d46d2c51c2223e416f5c17940a9e3352a6678d628898ca256dc"
+    },
+    "benchmarks/cases.py": {
+      "bytes": 3973,
+      "sha256": "156e6b73d7a14a27b23abd0250817a97c478024d7721ece1de7e505b65359faa"
+    },
+    "benchmarks/collect.py": {
+      "bytes": 2751,
+      "sha256": "d3f4f57ee8e0a64138f4cf7e12484049ed2aa7924e1b2fe92aae0a8112ec8220"
+    },
+    "benchmarks/results/2026-11-19.jsonl": {
+      "bytes": 11503,
+      "sha256": "dde88e706655d9ee2ce88a5fb5805089f69981a11d723557cf9f72f4ced3b158"
+    },
+    "benchmarks/results/environment.json": {
+      "bytes": 1630,
+      "sha256": "bef0be7bb972ca56187d2fa9f8ef00053814f2b2de5c6cadecd59af302efaaaa"
+    },
+    "benchmarks/results/manifest.json": {
+      "bytes": 440,
+      "sha256": "a62f0934a0e3d251d5d7302db4c0f2930c75b101a6e3bdfbb1c6dc73e186dc73"
+    },
+    "benchmarks/verify.py": {
+      "bytes": 1709,
+      "sha256": "6301a1823f5ab701761d177f989848055b3561263591f54fdca983a2ad1f7741"
+    },
+    "deploy/cloud/Dockerfile": {
+      "bytes": 1901,
+      "sha256": "b60ead233a82ca88aa087b4d86044e1db4f6f226b07f1236d9f0cb1a54c6b0dc"
+    },
+    "deploy/reference/Dockerfile": {
+      "bytes": 2010,
+      "sha256": "a285602799b9c40de657e8cd8bf4358cd84e6aafb77883acb8a0ffadac84483a"
+    },
+    "deploy/reference/compose.security.yaml": {
+      "bytes": 524,
+      "sha256": "68e3892bf3dce4373a27c19e21d9306df874d418bf9b96619fb6e579a37d5a6f"
+    },
+    "deploy/reference/iam.example.json": {
+      "bytes": 775,
+      "sha256": "9fa47fd4dc9e9617b796a4e7daef63ea0144b9d8a0134923a25a1f789eddb209"
+    },
+    "deploy/reference/instance.example.json": {
+      "bytes": 537,
+      "sha256": "567ebb7df75904283e0b053e1f0347e008c89474b7b6b4126360a8098554f738"
+    },
+    "deploy/reference/render.py": {
+      "bytes": 1656,
+      "sha256": "9adf039c1e308dc6c1f7a099d07e00c0571c919d91202f7c6e6e801d83dbebfd"
+    },
+    "deploy/reference/source-lock.json": {
+      "bytes": 422,
+      "sha256": "515b8dfac203a4aa5a664a0d1bc2f2608cf93c730ffa63b6f81028dc3c7d6988"
+    },
+    "deploy/reference/tailnet-policy.example.json": {
+      "bytes": 302,
+      "sha256": "ae0fff7ac8a2b214a24ddd8cf95873b5604561e751b206c995268fef48e6be52"
+    },
+    "docs/ARCHITECTURE.md": {
+      "bytes": 3240,
+      "sha256": "b68c199fc6fccb3185edd78f7d0dc7b11ecaaab42a8e3ddcfb25d823107da804"
+    },
+    "docs/BENCHMARKS.md": {
+      "bytes": 3951,
+      "sha256": "a8bff8d2685306a5a36afdca99a7a5e2b9c019833ac725965b570842e059e3d4"
+    },
+    "docs/DEPLOYMENT.md": {
+      "bytes": 2806,
+      "sha256": "ba0d1f24f5b9f4216db987d21a3f4e3915ce42c7f63bf2d553d015432bb6c7dc"
+    },
+    "docs/PROVENANCE.md": {
+      "bytes": 2731,
+      "sha256": "9cd7450822d241649f0bf5e5ee1ce26427c7302a15193e6eb42c9dee61cc9c1a"
+    },
+    "docs/PUBLICATION_REVIEW.md": {
+      "bytes": 8034,
+      "sha256": "0d99f889b1e552016114fe96197c5b056d4694b26034dbb64732874da80785cd"
+    },
+    "docs/SETUP.md": {
+      "bytes": 4215,
+      "sha256": "b537e532b788745c1095b2d7e3fc36807a87b0e81df4d5aa1556f5d7d4f421e2"
+    },
+    "examples/README.md": {
+      "bytes": 418,
+      "sha256": "5e2cc443be94b71303ee7b0e83971fe9c46b93c516d5e72da3efb80c8bc53552"
+    },
+    "examples/gateway.example.json": {
+      "bytes": 68,
+      "sha256": "7bc58e20c7fc6358d9a02210d1ebe88a9207c790e63b0a123dee40ad8c4a3967"
+    },
+    "examples/hermes.config.example.json": {
+      "bytes": 263,
+      "sha256": "0fcd4d41769c05a8cad21419bb357cf70a2832f2d813a53a290f430d252405ae"
+    },
+    "operations/__init__.py": {
+      "bytes": 74,
+      "sha256": "4e28fef6252fc71c04b6c3972a3a975d96f826c208b1dee63b6cb3d1c2dcb84c"
+    },
+    "operations/activity.py": {
+      "bytes": 2935,
+      "sha256": "0c3b50061a75c5068684d1f7564449f28f6a663889e6f683d96e7bd182f5ab98"
+    },
+    "operations/audit.py": {
+      "bytes": 1423,
+      "sha256": "72d31014800b04798d4f577db072c3ffcbbe1c580322a0a638f35ceec3f2cb20"
+    },
+    "operations/cloud_evidence.py": {
+      "bytes": 3729,
+      "sha256": "a6b5148e1dbf5c3cb126ad62b4af6abe05d3e7f5e7f1d39ad105489ba323dc66"
+    },
+    "operations/cloud_http.py": {
+      "bytes": 2776,
+      "sha256": "77e14584038f9e7ff92c651edac58ce63598fb0eb572619f6a4b9183def754a4"
+    },
+    "operations/cloud_runtime.py": {
+      "bytes": 6216,
+      "sha256": "34b8c0bbc32aca93b394b18a2fc24608a5e629b39f562a441c21af09d698de9d"
+    },
+    "operations/credentials.py": {
+      "bytes": 1798,
+      "sha256": "74040cba708ebf41b88f6ecde081ba6954268bbfd8ca95651d0da3ceb43b5b7b"
+    },
+    "operations/evidence.py": {
+      "bytes": 2431,
+      "sha256": "83d054e58ce8919cd0388aa2ed6b2226b2199a444042a904a44126c096fb18f4"
+    },
+    "operations/gateway.py": {
+      "bytes": 8512,
+      "sha256": "d514eb3ca5a20c94d30521e7a93334adc0ac0f3d8684face5f56047d82cde7f1"
+    },
+    "operations/gateway_limits.py": {
+      "bytes": 1377,
+      "sha256": "3beec2f1ead8b2b6971f934d1c022549ea99431eeb97bab4748de56ffa85a56e"
+    },
+    "operations/health.py": {
+      "bytes": 3319,
+      "sha256": "474727bc253df21b4fdf75d4a3843e8e117c9c400e3ea789321ddcd9f9978046"
+    },
+    "operations/model_monitor.py": {
+      "bytes": 1700,
+      "sha256": "1afc13e9db9952892be1d13273db27954408f649164b4f457ad490ea59f01dfe"
+    },
+    "operations/ollama_bridge.py": {
+      "bytes": 3442,
+      "sha256": "e0b281ad819ef36f5b7fda38cdb75dcb403d9184f9d2d1ee6657364d9af0b2b2"
+    },
+    "operations/preflight.py": {
+      "bytes": 817,
+      "sha256": "fb0e96cf9e12b52d7144b55af4889817a807d8e34cddfabd34c6c85cfed8d936"
+    },
+    "operations/security.py": {
+      "bytes": 7501,
+      "sha256": "fd4a4004143c99e5f426c50f372156fb23b70e475f07aaaf8d597f9ac616e267"
+    },
+    "operations/snapshot.py": {
+      "bytes": 2163,
+      "sha256": "b8f9ab7f236b940192d9ecc78d5161e46b8d6f96eba74684f185b67afc16804c"
+    },
+    "operations/verify_stage6b.py": {
+      "bytes": 4148,
+      "sha256": "46474ea6a5b73b102a113e32d4454b3084bfb850628bcec38de02f870ca02481"
+    },
+    "persistence/__init__.py": {
+      "bytes": 84,
+      "sha256": "361e6d14859bc293f9ec65131cff6ad0ae24685782eadb7dceb63672c7bb2e39"
+    },
+    "persistence/__main__.py": {
+      "bytes": 1654,
+      "sha256": "e2f692834cdd4e3b530830267e3d9ddaca5456b468891029e7da1a9738b611e7"
+    },
+    "persistence/bundle.py": {
+      "bytes": 6652,
+      "sha256": "509afd6b0b9e3eec14eae4568d6d8306aed66ba08b7478c6fadc890c33bd8d94"
+    },
+    "persistence/config.example.json": {
+      "bytes": 160,
+      "sha256": "960ecbc3a3713ac6d0fa258dbe0deb51b9858064ccdfb056b6d80d7fa387113c"
+    },
+    "persistence/coordinator.py": {
+      "bytes": 4272,
+      "sha256": "1936aa3940a615fe6fab36402fe905a62c7919c8f1ca73407c80bb4bcdcdd546"
+    },
+    "persistence/initialize.py": {
+      "bytes": 1564,
+      "sha256": "a62165d5f3bd7b57d4da870a4d91abc07a8410671fa6a6dcc84601352ef030a4"
+    },
+    "persistence/objects.py": {
+      "bytes": 3716,
+      "sha256": "4a14d14117b20b23fd72ee9d000450382d1a9087eb1fc9a0c6136554dbb1b972"
+    },
+    "persistence/requirements-cloud.txt": {
+      "bytes": 208,
+      "sha256": "2b53b0ace0fec710c51632d46a8347f1ef114949c47f387c5104da8b6e4a04f9"
+    },
+    "persistence/runtime.py": {
+      "bytes": 4033,
+      "sha256": "8695c87e49e27f4bf7952fcd836781134a56618228fe626f01c57fe331f2b62e"
+    },
+    "proactive/__init__.py": {
+      "bytes": 82,
+      "sha256": "d45230e5a0906a3aac5fceeb8dee5cdf3a6416f963001d7d8321d49adf4aa180"
+    },
+    "proactive/__main__.py": {
+      "bytes": 3448,
+      "sha256": "22ac534bdc0283f07c8bca95085083cdf0ed52ed65d8d12c5a71306bbe8300b9"
+    },
+    "proactive/config.example.json": {
+      "bytes": 423,
+      "sha256": "46f7ceb23b4cde96501bd2234bb1bb54939fb56227575fab780a621819a4dc83"
+    },
+    "proactive/config.py": {
+      "bytes": 4923,
+      "sha256": "8cfe2ccffe92ac415fc128a1c871659356315f2bfa09d868fa095aaad79bfc36"
+    },
+    "proactive/content.py": {
+      "bytes": 12895,
+      "sha256": "b5b6fa613e8e2b2e4209610de98082c14914464a09a85cd61b2c204a06b06027"
+    },
+    "proactive/engine.py": {
+      "bytes": 10147,
+      "sha256": "65086d187afe2cdca89443a70b7244a3784cf8f24437ea5d39283c4865d5f1e1"
+    },
+    "proactive/state.py": {
+      "bytes": 5777,
+      "sha256": "b9164c6df0d119063e462a0723b4b842d0dfa82f603240931a4db673e352185e"
+    },
+    "proactive/verify_logs.py": {
+      "bytes": 3909,
+      "sha256": "8938e846f65cdf510d8260e64eed6cad2d822283f3da4667f0e79eabc2a8c6a4"
+    },
+    "pyproject.toml": {
+      "bytes": 261,
+      "sha256": "064774bb2864927855d9f498dc356de67e9e024471090e1e82e802c87185c171"
+    },
+    "reports/initial-release-review.json": {
+      "bytes": 3220,
+      "sha256": "c1870746b83fe16616f6df78d693e23fe7924dac8282343bd9c93a628d972e59"
+    },
+    "reports/optional-hermes-dependencies.json": {
+      "bytes": 7061,
+      "sha256": "8f0fb7ca55c416eec9411b9d1d14eca01d0d6bd67ebed39645ae9ceb4766158c"
+    },
+    "reports/security-scan.json": {
+      "bytes": 838,
+      "sha256": "46dbc654144ff963e46f7aa409b83d4bc58b61ea33579ecd06753a79650472de"
+    },
+    "reports/verification.json": {
+      "bytes": 3419,
+      "sha256": "874060fe11c9cef9496f6718ad69a64d473034018613a97da04599416e75ea7a"
+    },
+    "requirements.lock": {
+      "bytes": 275,
+      "sha256": "5757a1ffacf97191913610dbf0cf526be19b69ad7523682a9c96d81a3cee1401"
+    },
+    "router/__init__.py": {
+      "bytes": 63,
+      "sha256": "6b1cc49ff5f0cec5971eaf618c91aca5320d524208569b66ebfb96a2255df4b9"
+    },
+    "router/__main__.py": {
+      "bytes": 1596,
+      "sha256": "5ad3be60bfb0abb9a61873fde824a1b9df009da48f8d873053b1ad5e0f6f9f39"
+    },
+    "router/core.py": {
+      "bytes": 13629,
+      "sha256": "61819e222bd91b54f70234c0a30082dbcce9fb7b207f45503a8123986062bcab"
+    },
+    "router/diagnose.py": {
+      "bytes": 1707,
+      "sha256": "f020339f5bd016afba9ffdc153fedd2a3d7c2da7cc63dff113f3df092fb9d9a0"
+    },
+    "router/hermes_backend.py": {
+      "bytes": 3654,
+      "sha256": "ef4f01b45a4dd1134e9b9248cb05492505eebd3d6372dbce0d32a495d4e84103"
+    },
+    "router/hermes_worker.py": {
+      "bytes": 7202,
+      "sha256": "0d866dcfd8caa79b9799ba6ff02f72d810f6bfd2ccb782f5807fb8d6a82e82b2"
+    },
+    "router/policy.json": {
+      "bytes": 908,
+      "sha256": "70fa43b5efb6ea8412e59a2eca7e998843bd2a98aea1bcddc4692988bbc68e36"
+    },
+    "scripts/demo.py": {
+      "bytes": 894,
+      "sha256": "d287d5407e8a1971d47db8e4cce5ebe16c638b06ff7a779322e110d08dc86778"
+    },
+    "scripts/release_checks.py": {
+      "bytes": 4821,
+      "sha256": "efb1dd60c90ea351250089e3d204111f4e050f730a7cfe20ab0db6c4b13a3f3e"
+    },
+    "scripts/scan_public.py": {
+      "bytes": 4514,
+      "sha256": "fb0df2d9b112b94af82690d447e014b92dd62038686ac5372e9e3b392b909487"
+    },
+    "scripts/scanner-fixtures.json": {
+      "bytes": 323,
+      "sha256": "d1ccf720f78c799fa19ceeb76a91cca392cb06b6aa2c71f8c03dd340636e963b"
+    },
+    "scripts/test_offline.py": {
+      "bytes": 1055,
+      "sha256": "4c696e17efb9e974a071ae90d910e1d46f70273665898fb500e9e38bb19d4e46"
+    },
+    "skills/calendar/SKILL.md": {
+      "bytes": 1944,
+      "sha256": "4dcee9770b1a986e5c0db9db8d80b913c16202843a0e2cf8e04a00ab409e77f3"
+    },
+    "skills/email/SKILL.md": {
+      "bytes": 1953,
+      "sha256": "a68c36f804b588b90bdcfa6dfddce4756487bdaf8b1ab2cd3bf52bb781b8c763"
+    },
+    "skills/weather/SKILL.md": {
+      "bytes": 2105,
+      "sha256": "c1e5b407ba157f217472460ae3b60f6871ceb43841460cb722d15bb7d69ca0fe"
+    },
+    "skills/web-search/SKILL.md": {
+      "bytes": 2031,
+      "sha256": "75fad81450555622b13791ad5e1a19f5518d3caa697e856001f7ccff81b39ab5"
+    },
+    "telegram_bot/__init__.py": {
+      "bytes": 81,
+      "sha256": "900ccbc8c00ff37829feed07fe5de2d868c67f6c15c21b24feb3bf5143498eb8"
+    },
+    "telegram_bot/__main__.py": {
+      "bytes": 7889,
+      "sha256": "e89b28f4c204774b81dc9dc79f5bd89203c7f9b60768b0ea4f502db8b6614d66"
+    },
+    "telegram_bot/api.py": {
+      "bytes": 4991,
+      "sha256": "60457df5d9ee358c221e2dc83b81fceb395b8fc0b655ed33dec275137f839728"
+    },
+    "telegram_bot/config.py": {
+      "bytes": 2592,
+      "sha256": "663d7d0be419d02faed6f7a9742695f6b235bbb5c545b3f77b8e06f9e9dec1f4"
+    },
+    "telegram_bot/messages.py": {
+      "bytes": 699,
+      "sha256": "ec065bf6428c2cd5f0208f16a74c66ba3a545ab86117007d350a52139cdb2d70"
+    },
+    "telegram_bot/service.py": {
+      "bytes": 14982,
+      "sha256": "9194a2c8ca3514ea1fd9216e0bf20b383d36bd1f80ebb1e1a22a6bd244cc97bd"
+    },
+    "telegram_bot/verify_logs.py": {
+      "bytes": 2794,
+      "sha256": "de6d234790d2c3c048b4e776bbd144c871b2bb38ad50e815c9ff84f493429bb1"
+    },
+    "tests/hermes_harness.py": {
+      "bytes": 5378,
+      "sha256": "d6b9c1b18621c1be49f759cd9601f6ee27a609b10d84198b1fa19bf10889ee65"
+    },
+    "tests/test_gateway_hardening.py": {
+      "bytes": 6839,
+      "sha256": "33142d31499dffa5a952f8ce744da28095525748f4d35b4fc997349bdb1b27c7"
+    },
+    "tests/test_hermes_integration.py": {
+      "bytes": 7337,
+      "sha256": "d58634e4242166aee7db36d03317760f8c3b4ddc2e532e86872e86c7238102da"
+    },
+    "tests/test_memory_persistence.py": {
+      "bytes": 27983,
+      "sha256": "dccd5f79bcdcc2b2b88261310d3b89ecdddaf0ee8b483cb93a2ed6f3ab6e1e2d"
+    },
+    "tests/test_proactive.py": {
+      "bytes": 22254,
+      "sha256": "a6e38bafe0802b90b48802de7d2a017159fa885a446cdca69460bf1d5bff1ab5"
+    },
+    "tests/test_public_portfolio.py": {
+      "bytes": 2138,
+      "sha256": "bde0a0ca6f9395c4fa73b675def0d3ee62392903471d9bf6e8b9ae6fa476204e"
+    },
+    "tests/test_public_skill_regressions.py": {
+      "bytes": 10198,
+      "sha256": "6df1a82ff6c45dfb7e1176835c935994e831d3071f424f0e207644b1b21a473f"
+    },
+    "tests/test_release_checks.py": {
+      "bytes": 2506,
+      "sha256": "93ec7c5147c6949a23e729ed6625671bee2f3e37879383ee050a16240a5d0abb"
+    },
+    "tests/test_router.py": {
+      "bytes": 12407,
+      "sha256": "bf95e8ebca7063f2530525813252d8f8b6d22c2d5a328d202dc2fb51f51c359e"
+    },
+    "tests/test_security_operations.py": {
+      "bytes": 16191,
+      "sha256": "69255faf7d62946d1caaa5374f3babd7ed49c33165eb21a1aaabce1880176cf9"
+    },
+    "tests/test_skill_telegram.py": {
+      "bytes": 4070,
+      "sha256": "7be80222ab418fb28354f11e6f5aee7fa3a2323549139c30b3c046184800c2e1"
+    },
+    "tests/test_skills.py": {
+      "bytes": 19993,
+      "sha256": "b777a92e0a62b98ce1f6d7cfb34ef50527c4b109315fbbdcb4f7b503e906dc1a"
+    },
+    "tests/test_telegram.py": {
+      "bytes": 22847,
+      "sha256": "e4f2ddbd64cf2956ef34494787b03e376f49d9c7687a06d54920f4dd7625735b"
+    },
+    "third_party/Hermes-LICENSE": {
+      "bytes": 1070,
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6"
+    },
+    "third_party/python-dateutil-LICENSE": {
+      "bytes": 2889,
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+    },
+    "third_party/six-LICENSE": {
+      "bytes": 1066,
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+    },
+    "uv.lock": {
+      "bytes": 1829,
+      "sha256": "186faa6f6fd7d655a85a8ac59104885c028383c245170c3cb65a2ac3f4c41eda"
+    }
+  }
+}

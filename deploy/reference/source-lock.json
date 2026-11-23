@@ -1,0 +1,11 @@
+{
+  "hermes_commit": "b200f5bc60e31588ba2cb60e288029c4a54ba5fa",
+  "reported_release": "0.22.7",
+  "python": "3.14.4",
+  "source_hashes": {
+    "pyproject.toml": "e5d769e9ee32a398aef8ede5123e0170673c0c4cf95342334d4532c8f18b5c67",
+    "uv.lock": "e7314b3489730fd1832e53d79979bb01986246e657058766ed09372fb30fbf70"
+  },
+  "container_build_executed": false,
+  "dependency_lock_reproduction_required_before_production": true
+}

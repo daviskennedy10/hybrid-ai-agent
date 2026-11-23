@@ -1,0 +1,95 @@
+{
+  "recorded_at_utc": "2026-11-23T05:29:48.748400+00:00",
+  "scope": "Local initial release preparation; no remote creation or push",
+  "professor_publication_permission": {
+    "reported_by": "Owner explicitly confirmed professor permission in conversation",
+    "hold_resolved": true,
+    "private_correspondence_included": false
+  },
+  "separation": {
+    "separate_project_and_git_directory": true,
+    "git_object_alternates_present": false,
+    "tracked_symlinks": 0,
+    "original_project_accessed_or_modified_this_checkpoint": false,
+    "production_services_contacted_or_changed": false
+  },
+  "secret_scanning": {
+    "local_pattern_and_staged_scan_passed": true,
+    "reviewed_synthetic_fixture_count": 1,
+    "independent_scan_completed": false,
+    "independent_scan_reason": "Tool installation blocked by PyPI DNS failure",
+    "no_zero_independent_findings_claim": true
+  },
+  "dependency_checks": {
+    "core_compatibility_passed": true,
+    "lock_consistency_passed": true,
+    "vulnerability_scans": {
+      "independent_secrets": {
+        "completed": false,
+        "finding_count": null,
+        "passed": false,
+        "exit_code": 2
+      },
+      "core_advisories": {
+        "completed": false,
+        "finding_count": null,
+        "passed": false,
+        "exit_code": 2
+      },
+      "optional_hermes_advisories": {
+        "completed": false,
+        "finding_count": null,
+        "passed": false,
+        "exit_code": 2
+      },
+      "optional_gcs_advisories": {
+        "completed": false,
+        "finding_count": null,
+        "passed": false,
+        "exit_code": 2
+      }
+    },
+    "known_optional_compatibility_warning": "Upstream Hermes intentionally overrides browser-harness Pillow 12.3.0 requirement with Pillow 13.0.0; no downgrade or upstream change made."
+  },
+  "readme_review": {
+    "technical_scope_reviewed": true,
+    "architecture_labels_clarified": true,
+    "benchmark_scores_and_limits_preserved": true,
+    "origin_and_codex_attribution_preserved": true,
+    "local_links_verified": true
+  },
+  "licensing": {
+    "application_license": "MIT",
+    "scope": "Author-owned application code and portfolio scaffolding only",
+    "third_party_notices_preserved": true,
+    "framework_and_model_weights_not_vendored": true,
+    "full_optional_transitive_and_container_license_audit_claimed": false
+  },
+  "latest_tests": {
+    "tests_run": 266,
+    "passed": 260,
+    "skipped_live_model_tests": 6,
+    "failures": 0,
+    "errors": 0,
+    "production_credentials_or_inference_used": false
+  },
+  "github_cli": {
+    "installed": true,
+    "auth_status_exit_code": 1,
+    "invalid_token_reported": true,
+    "authenticated_from_this_environment": false,
+    "raw_auth_output_or_tokens_included": false,
+    "credentials_changed": false
+  },
+  "git": {
+    "requested_initial_commit_message": "Initial release: hybrid AI agent",
+    "commit_to_be_created_after_this_report": true,
+    "original_history_included": false,
+    "remote_created": false,
+    "pushed": false
+  },
+  "release_blockers": [
+    "Complete independent secret/advisory checks externally and review all findings",
+    "Confirm GitHub CLI authentication outside sandbox before publishing"
+  ]
+}

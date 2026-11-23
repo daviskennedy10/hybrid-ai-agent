@@ -1,0 +1,14 @@
+{
+  "_config_version": 52,
+  "model": {
+    "default": "gpt-5.6-sol",
+    "provider": "openai-codex"
+  },
+  "model_aliases": {
+    "gemma-local": {
+      "provider": "custom",
+      "model": "gemma4:e2b",
+      "base_url": "http://127.0.0.1:11434/v1"
+    }
+  }
+}

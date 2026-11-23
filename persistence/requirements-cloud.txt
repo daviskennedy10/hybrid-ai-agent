@@ -1,0 +1,3 @@
+# Optional cloud mode only; not installed/authorized by Stage 6B.
+# Version checked against the official client reference; resolve/lock transitive dependencies before deployment.
+google-cloud-storage==3.17.1

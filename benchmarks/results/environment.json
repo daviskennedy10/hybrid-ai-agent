@@ -1,0 +1,47 @@
+{
+  "captured_at_utc": "2026-11-19T12:08:01.349666+00:00",
+  "local": {
+    "platform": "Darwin",
+    "architecture": "arm64",
+    "python": "3.14.4",
+    "hw.model": "Mac16,10",
+    "hw.memsize": "17179869184",
+    "machdep.cpu.brand_string": "Apple M4",
+    "ollama_resident_models": []
+  },
+  "hermes_commit": "b200f5bc60e31588ba2cb60e288029c4a54ba5fa",
+  "policy": {
+    "cloud_model": "gpt-5.6-sol",
+    "cloud_provider": "openai-codex",
+    "local_model": "gemma4:e2b",
+    "local_alias": "gemma-local",
+    "local_url": "http://127.0.0.1:11434/v1",
+    "long_context_bytes": 24000,
+    "local_input_bytes": 48000,
+    "simple_max_bytes": 2000,
+    "max_output_tokens": 2048,
+    "retries": 1,
+    "retry_delay_seconds": 0.25,
+    "health_timeout_seconds": 2,
+    "attempt_timeout_seconds": 120,
+    "allow_complex_rate_limit_fallback": false,
+    "allow_unknown_rate_limit_fallback": true,
+    "private_patterns": [
+      "\\[private\\]",
+      "\\bconfidential\\b",
+      "\\bdo not (?:send|share).*cloud\\b",
+      "\\bsynthetic private\\b"
+    ],
+    "complex_patterns": [
+      "\\b(?:prove|proof|derive|reasoning|debug|architecture|algorithm|trade.?offs?|analy[sz]e)\\b"
+    ],
+    "simple_patterns": [
+      "^(?:hi|hello|hey)[!. ]*$",
+      "\\b(?:translate|summari[sz]e|rephrase|uppercase|lowercase|classify|extract|spell|capital of|what is \\d)\\b"
+    ]
+  },
+  "path": "isolated native Hermes backend; NOT Cloud Run/Tailscale/Telegram end-to-end",
+  "forced_model_comparison": true,
+  "production_state_used": false,
+  "warm_cold_control": "uncontrolled; no warm-up, model unload, keep_alive change or restart"
+}
